@@ -19,9 +19,20 @@ p{
     font-size: 12px;
 }
 .main-card{
-    margin: 10px;
-    --bs-border-opacity: .5;
+    margin: 5px;
+    --bs-border-opacity: .1;
+    box-shadow: 5px 4px 26px -8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 4px 26px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 4px 26px -8px rgba(0,0,0,0.75);
 }
 
+.headtext{
+    font-weight: 500;
+}
+.middletext{
+    text-decoration: underline;
+    
+}
+    
 
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background */
